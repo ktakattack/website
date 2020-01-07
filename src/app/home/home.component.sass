@@ -1,17 +1,26 @@
+.wrapper 
+    display: grid
+    grid-template-columns: 400px auto
+    @media (max-width: 400px)  
+      grid-template-areas: "image" "text" 
+    @media (min-width: 400px) 
+      grid-template-areas: "image text" 
+    
+  
 img 
   height: 400px
   display: block
-  float: left
   margin: 1em 10%
+  grid-area: image
 
 
 div.about
-  float: right
-  width: 50%
 
 .emphasis
   color: black
 
 .about
+  grid-area: text
   p 
     color: #616161
+    
