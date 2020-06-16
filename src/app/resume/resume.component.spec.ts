@@ -22,4 +22,5 @@ describe('ResumeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });
