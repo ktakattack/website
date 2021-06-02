@@ -7,9 +7,7 @@ This was my first experience working with Angular. This is my personal portfolio
 * source control--I use Atlassian's SourceTree to assist with source control. Whenever I'm making changes, I create a new branch. Once changes are pushed to GitHub, I use a PR to merge into my main branch. Rinse and repeat.
 * deploying changes to a live site
 
-[//]: # (## Angular Documentation)
 
-[//]: # (This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.)
 
 [//]: # (## Development server)
 
@@ -21,8 +19,8 @@ This was my first experience working with Angular. This is my personal portfolio
 
 [//]: # (## Build)
 
-[//]: # (Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.)
+[//]: # (Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. )  
 
 [//]: # (## Further help)
 
-[//]: # (To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).)
+[//]: # ( To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README --https://github.com/angular/angular-cli/blob/master/README.md]. )
