@@ -1,27 +1,25 @@
-.wrapper 
-    display: grid
-    grid-template-columns: 400px auto
-    @media (max-width: 400px)  
-      grid-template-areas: "image" "text" 
-    @media (min-width: 400px) 
-      grid-template-areas: "image text" 
-    
+@media(min-width:768px)
   
-img 
+container1 
+  display: flex
+  // justify-content: space-around
+  // flex-direction: column
+  padding: 10px
+  
+img
   height: 400px
   display: block
   margin: 1em 10%
-  grid-area: image
+  // grid-area: image
   float: left
 
-.emphasis
+emphasis
   color: black
 
-.about
-  grid-area: text
+about
   p 
     color: #616161
-    
+          
 
 
   
