@@ -7,7 +7,7 @@ This was my first experience working with Angular. This is my personal portfolio
 * source control--I use Atlassian's SourceTree to assist with source control. Whenever I'm making changes, I create a new branch. Once changes are pushed to GitHub, I use a PR to merge into my main branch. Rinse and repeat.
 * deploying changes to a live site
 
-## Angular Documentation
+[//]: # (## Angular Documentation)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
