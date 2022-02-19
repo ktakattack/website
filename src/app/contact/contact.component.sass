@@ -2,17 +2,43 @@
     display: grid
     grid-template-columns: auto 400px
     grid-template-rows: auto 400px
-    grid-template-areas: "title icon" "text icon"
+    grid-template-areas: "header head" "text svg"  //row1: "col 1 col2" row2: "col1 col2" 
+    @media (max-width: 480px)  
+      grid-template-areas: "header head"
+      img
+        display: none
+    @media (min-width: 480px) 
+      grid-template-areas: "header head" "text svg"
 
-    h1 
-        grid-area: title
+h1 
+    grid-area: header
+    margin-left: 150px
+    width: 50%
+    background-color: #8ca0ff
+
+img 
+    // display: none
+    grid-area: svg
+    width: 100%
+    // margin: 20p
+    // margin-top: 0px
+    margin-left: -180px
+    background-color: #ffff64
 
 .contact
     display: block
     grid-area: text
+    margin-left: 150px
+    width: 50%
+    background-color: #ffa08c
 
-img
-    display: block
-    width: 100%
-    margin-top: 0px
-    grid-area: icon
+    a:hover
+      color: #4bacc6
+    a:visited
+      color: #999
+
+h2
+  grid-area: text
+  margin-left: 150px
+  width: 50%
+  background-color: #8ca0ff
