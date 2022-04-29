@@ -1,47 +1,79 @@
-.wrapper
-    display: grid
-    grid-template-columns: auto 400px
-    grid-template-rows: auto 400px
-    grid-template-areas: "header head" "text svg"  //row1: "col 1 col2" row2: "col1 col2" 
-    @media (max-width: 480px)  
-      grid-template-areas: "header head"
-      img
-        display: none
-    @media (min-width: 480px) 
-      grid-template-areas: "header head" "text svg"
+// .wrapper
+//     display: grid
+//     grid-template-columns: auto 400px
+//     grid-template-rows: auto 400px
+//     grid-template-areas: "header head" "text svg"  //row1: "col 1 col2" row2: "col1 col2" 
+//     @media (max-width: 480px)  
+//       grid-template-areas: "header header" "" "head head"
+//       img
+//         display: none    
+//       background-color: #ffa08c
+//       a:hover
+//         color: #4bacc6
+//       a:visited
+//         color: #999
+//     @media (min-width: 480px) 
+//       grid-template-areas: "header header" "head head" "text svg"
+//       // margin-left: 150px
+//       width: 50%
+//       background-color: #ffa08c
+//       a:hover
+//         color: #4bacc6
+//       a:visited
+//         color: #999
+// h1 
+//     grid-area: header
+//     // width: 50%
+//     // background-color: #8ca0ff //for debugging
 
-h1 
-    grid-area: header
-    margin-left: 150px
-    width: 50%
-    // background-color: #8ca0ff //for debugging
+// img 
+//     grid-area: svg
+//     width: 50%
+//     // margin-left: -180px
+//     background-color: #ffff64 //for debugging
 
-img 
-    grid-area: svg
-    width: 100%
-    margin-left: -180px
-    // background-color: #ffff64 //for debugging
+// .contact
+//     display: block
+//     grid-area: text
+// //     width: 50%
+// //     background-color: #ffa08c //for debugging
 
-.contact
-    display: block
-    grid-area: text
-    margin-left: 150px
-    width: 50%
-    // background-color: #ffa08c //for debugging
-    a:link
-      text-decoration: underline
-      color: #111 
-    a:hover
-      color: #4bacc6
-    // a:active
-    //   color: #111 
-    //   text-decoration: underline
+// //     a:hover
+// //       color: #4bacc6
+// //     a:visited
+// //       color: #999
 
-    a:visited
-      color: #111 
+// h2
+//   grid-area: text
+//   // width: 50%
+//   background-color: #8ca0ff  //for debugging
 
-h2
-  grid-area: text
-  margin-left: 150px
-  width: 50%
-  // background-color: #8ca0ff  //for debugging
+
+  //===================trying new============================================
+// header
+//     width: 30%
+//     margin: 0 auto
+   
+.wrapper 
+  // display: flex
+  padding: 25px
+  -webkit-flex: 1
+  -ms-flex: 1 
+
+contact
+  -webkit-flex: 1
+  -ms-flex: 1
+  // flex: auto
+  padding: 10px
+  
+a:hover
+  color: #4bacc6
+a:visited
+  color: #999
+
+// @media only screen and (min-width: 375 px) 
+//   img   
+//     background-color: #ffff64 //for debugging
+//     display: none  
+//     margin-right: 180dpx
+    // flex-basis: 200px
